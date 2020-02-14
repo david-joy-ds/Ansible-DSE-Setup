@@ -1,0 +1,9 @@
+[all]
+10.101.36.11
+10.101.34.188
+10.101.36.15
+
+[all:vars]
+ansible_user = automaton 
+ansible_ssh_private_key_file = ~/.ssh/ctool_my_gh_creds
+

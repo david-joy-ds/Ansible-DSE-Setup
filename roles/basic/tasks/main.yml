@@ -1,0 +1,4 @@
+- name: Create New Directory
+  file: path={{ item }} state=directory
+  with_items:
+    - /home/automaton/test
